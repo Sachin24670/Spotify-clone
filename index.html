@@ -10,14 +10,24 @@
   </head>
 
   <body>
-    <header class="border main">
+    <header class="main">
       <div class="logos">
-        <div class="spotifyLogo">
-          <img class="invert svgs" src="logo.svg" alt="logo" />
+        <div class="mainlogo m1 p1">
+          <img src="logo.svg" alt="" class="svgs invert" />
         </div>
-        <div class="pair">
-          <img class="svgs home invert" src="home.svg" alt="logo" />
-          <img class="svgs search invert" src="search.svg" alt="search" />
+
+        <div class="pair m1 p1">
+          <button class="logobutton">
+            <span>
+              <img src="home.svg" alt="" class="svgs invert" />
+            </span>
+          </button>
+
+          <button class="logobutton">
+            <span>
+              <img src="search.svg" alt="" class="svgs invert" />
+            </span>
+          </button>
         </div>
       </div>
       <div class="buttons">
@@ -25,9 +35,34 @@
         <button>Log in</button>
       </div>
     </header>
-    <div class="conatiner">
-      <div class="left border"></div>
-      <div class="right border"></div>
+
+    <div class="container">
+      <div class="left">
+        <div class="library m1 p1">
+          <h3>Library</h3>
+        </div>
+      </div>
+      <div class="right">
+        <div class="playlist">
+          <h2>Playlist</h2>
+        </div>
+        <div class="cardContainer">
+          <div class="card">
+            <div class="play">
+              <img src="sample.jpeg" alt="" />
+              <img src="play.png" alt="" class="playbutton" />
+            </div>
+            <h3>TITLE</h3>
+            <p>author name</p>
+          </div>
+
+          <div class="card">
+            <img src="sample.jpeg" alt="" />
+            <h3>TITLE</h3>
+            <p>author name</p>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
